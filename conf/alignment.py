@@ -9,7 +9,7 @@ class Alignment(Base):
 
     def __init__(self, args):
         super(Alignment, self).__init__('alignment')
-        self.ckpt_dir = '/apdcephfs_cq3/share_1134483/charlinzhou/ckpts/STAR/'
+        self.ckpt_dir = '/home/tim/dev/STAR/ckpt_dir'
         self.net = "stackedHGnet_v1"
         self.nstack = 4
         self.loader_type = "alignment"
